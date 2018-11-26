@@ -55,7 +55,7 @@ if cap.isOpened():
 
         else:
             print('Frame not available')
-            print(video.isOpened())
+            print(cap.isOpened())
 
 
 
