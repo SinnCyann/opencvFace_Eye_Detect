@@ -6,7 +6,7 @@ face_cascade = cv2.CascadeClassifier('./haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('./haarcascade_eye.xml')
 
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 found_iris_counter = 0
 eye_counter = 0
 while 1:
